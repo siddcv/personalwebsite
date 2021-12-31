@@ -20,7 +20,6 @@ function Landing() {
                 </div>
                 {/*    <a href="#secondsection" class="down-arrow"></a>*/}
                 {/*    <p><i class="arrow down"></i></p>*/}
-                <p>Scroll Down</p>
                 <div class="arrowd"><a href="#secondsection" class="arrowdown"></a></div>
             </div>
             <div id="secondsection">
