@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { SliderData } from './SliderDate'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 import '../css/slideshow.css';
-import arrow from '../images/arrow1.png'
 
 
 const ImageSlider = ({ slides }) => {
