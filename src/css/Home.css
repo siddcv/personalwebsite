@@ -26,7 +26,7 @@ body {
     color:white;
 }
 
-html{
+html:not(.e2e){
     scroll-behavior:smooth;
 }
 
