@@ -45,7 +45,7 @@ function Landing() {
                     </div>
                 </div>
                 {/*<div class="arrowu"><a class="arrowup"></a></div>*/}
-                <p class="scrollup">Scroll Up</p>
+                {/*<p class="scrollup">Scroll Up</p>*/}
 
 
             </div>
