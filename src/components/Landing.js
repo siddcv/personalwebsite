@@ -20,7 +20,8 @@ function Landing() {
                 </div>
                 {/*    <a href="#secondsection" class="down-arrow"></a>*/}
                 {/*    <p><i class="arrow down"></i></p>*/}
-                <div class="arrowd"><a href="#secondsection" class="arrowdown"></a></div>
+                <p class="scrolldown">Scroll Down</p>
+                <div class="arrowd"><a class="arrowdown"></a></div>
             </div>
             <div id="secondsection">
                 <div class="flexcontainer">
@@ -43,7 +44,9 @@ function Landing() {
                         </p>
                     </div>
                 </div>
-                <div class="arrowu"><a href="#firstsection" class="arrowup"></a></div>
+                <div class="arrowu"><a class="arrowup"></a></div>
+                <p class="scrollup">Scroll Up</p>
+
 
             </div>
         </div>

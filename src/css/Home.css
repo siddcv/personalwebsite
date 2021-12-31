@@ -99,7 +99,6 @@ html{
     
 }
 .arrowd {
-    padding-top:2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,4 +142,14 @@ html{
 
 p{
     font-size:20px
+}
+
+.scrolldown{
+    padding-top:2rem;
+    text-align:center;
+    color:white;
+}
+.scrollup {
+    text-align: center;
+    color: white;
 }
