@@ -15,7 +15,7 @@ function App() {
         <div>
             {/*<Home />*/}
             {/*<About />*/}
-            <Route exact path="/" component={Home} />
+            <Route exact path="/personalwebsite" component={Home} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/projects" component={MyProjects} />
             <Route exact path="/experience" component={Experience} />
