@@ -1,0 +1,144 @@
+﻿.myimages {
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width:1600px){
+/*    .myimages {
+        max-width: 31%;
+        height: auto;
+        padding-left: 147px;
+    }*/
+    .slider {
+        position: relative;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left:10rem
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        left: 10rem;
+        font-size: 2rem;
+        color: #fff;
+        z-index: 2;
+        cursor: pointer;
+        user-select: none;
+    }
+
+}
+
+    .slider {
+        position: relative;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        left: 30rem;
+        font-size: 2rem;
+        color: #fff;
+        z-index: 2;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: 5rem;
+        font-size: 2rem;
+        color: #fff;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+
+    .slide {
+        opacity: 0;
+        transition-duration: 1s ease;
+    }
+
+    .slide.active {
+        opacity: 1;
+        transition-duration: 1s;
+        transform: scale(1.08);
+        width:80%;
+    }
+
+    .first-col {
+        width: 50%;
+        padding: 0 10px 0 0;
+        float: left;
+    }
+
+    .second-col {
+        width: 50%;
+        padding: 0 10px 0 0;
+        float: right;
+        color: white;
+        padding-right: 3rem;
+    }
+
+
+.arrowleft {
+    box-sizing: border-box;
+    height: 2vw;
+    width: 2vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(135deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrowl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowleft:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+}
+
+.arrowright {
+    box-sizing: border-box;
+    height: 2vw;
+    width: 2vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(315deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrowr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowright:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+}
