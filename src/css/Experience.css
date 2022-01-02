@@ -1,0 +1,12 @@
+﻿.flex1{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    /*    padding-left:5rem;
+        padding-right:5rem;*/
+}
+
+.exp {
+    padding: 0rem 5rem 5rem 5rem;
+    color: white;
+}
