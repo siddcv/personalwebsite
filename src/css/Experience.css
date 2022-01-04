@@ -10,3 +10,19 @@
     padding: 0rem 5rem 5rem 5rem;
     color: white;
 }
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+video{
+    height:240px;
+    width:360px;
+    padding-left:3rem;
+}
+
+img {
+    height: 240px;
+    width: 360px;
+}
