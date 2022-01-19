@@ -1,6 +1,8 @@
 // JavaScript source code
 import React from "react";
 import Nav from "../components/Nav";
+import Contacts from "../components/Contact";
+
 
 
 function Contact() {
@@ -8,6 +10,7 @@ function Contact() {
         <div>
             <Nav />
             <p>Contact me</p>
+            <Contacts />
         </div>
     );
 }
