@@ -35,7 +35,7 @@ function Landing() {
                             I love finding unique solutions to challenges while expanding my learning horizon and strenghtening my expertise in various fields.
                         </p>
                         <p>
-                            I'm a senior at Santa Clara University majoring in Computer Science and Engineering with a minor in Mathematics.
+                            b[vipyv
                             Additionally, I am heavily involved in the engineering community at SCU serving as a peer advisor and tour guide. 
                         </p>
                         <p>
