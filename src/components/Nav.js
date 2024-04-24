@@ -11,7 +11,7 @@ function Nav() {
                     <div><Link to="/">Home</Link></div>
                     <div><Link to="/experience">Experiences</Link></div>
                     <div><Link to="/projects">My Projects</Link></div>
-                {/*    <div><Link to="/contact">Contact Me</Link></div>*/}
+                    <div><Link to="/contact">Contact Me</Link></div>
                 </div>
 
 

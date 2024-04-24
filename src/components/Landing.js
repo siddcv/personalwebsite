@@ -35,12 +35,13 @@ function Landing() {
                             I love finding unique solutions to challenges while expanding my learning horizon and strenghtening my expertise in various fields.
                         </p>
                         <p>
-                            I'm a senior at Santa Clara University majoring in Computer Science and Engineering with a minor in Mathematics.
-                            Additionally, I am heavily involved in the engineering community at SCU serving as a peer advisor and tour guide. 
+                            I'm a Software Engineer II at Cisco Systems working on developing the backend systems which supports Cisco's Supply Chains' transformation to the cloud.
+                            At Santa Clara University I majored in Computer Science and Engineering with a minor in Mathematics.
+                            Additionally, I was involved in the engineering community at SCU serving as a peer advisor and tour guide. 
                         </p>
                         <p>
-                            Outside of school I'm a huge Bay Area sports fan and love playing basketball and watching 49ers football in my spare time.
-                            Furthermore I'm an avid podcast listener and stand up comedy enthusiast and would love to hear recommendations.
+                            Outside of school I'm a huge Bay Area sports fan and love playing basketball, golf and running as well as watching 49ers football in my spare time.
+                            Furthermore I'm an avid podcast listener, stand up comedy enthusiast and would love to hear recommendations.
                         </p>
                     </div>
                 </div>

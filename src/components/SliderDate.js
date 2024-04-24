@@ -12,7 +12,6 @@ export const SliderData = [
     {
         image: pic2
     },
-
     {
         image: pic4
     },

@@ -9,7 +9,6 @@ function Contact() {
     return (
         <div>
             <Nav />
-            <p>Contact me</p>
             <Contacts />
         </div>
     );
