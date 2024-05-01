@@ -5,13 +5,15 @@ import Nav from "../components/Nav";
 import '../css/Experience.css';
 import todo from '../images/TodoList.mp4'
 import piano from '../images/Piano.JPG'
+import Project from "../components/Project";
 
 
 function MyProjects() {
     return (
         <div>
-            <Nav />
-            <div class="exp">
+            <Nav /> 
+            <Project/>
+            {/* <div class="exp">
                 <div class="flex1">
                     <h3>This Website!</h3>
                     <h3> December 2021 </h3>
@@ -63,7 +65,7 @@ function MyProjects() {
                 </div>
             </div>
 
-
+ */}
 
         </div>
     );

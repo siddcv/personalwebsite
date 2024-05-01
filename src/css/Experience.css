@@ -26,3 +26,204 @@ img {
     height: 240px;
     width: 360px;
 }
+.mainbox{
+    /*background-color: #8CA6DB; /* Blue color */
+    /* background-color: #002349; */
+    background: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    color: white; /* Text color */
+    padding: 1%; /* Padding inside the box */
+    /* margin-left:20%;
+    margin-right:20%;
+    margin-top:5%;
+    margin-bottom: 10%; */
+    display: flex;
+    margin: 5%;
+    border-radius: 15px;
+    flex: 1 1 40%;
+    max-width: 40%;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+
+.mainbox_projects{
+    /*background-color: #8CA6DB; /* Blue color */
+    /* background-color: #002349; */
+    background: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    color: white; /* Text color */
+    padding: 5%; /* Padding inside the box */
+    margin-left:5%;
+    margin-right:5%;
+    /*margin-top:5%; */
+    margin-bottom: 10%; 
+    display: flex;
+    border-radius: 15px;
+    /* flex: 1 1 1 20%;
+    max-width: 40%; */
+    box-sizing: border-box;
+}
+
+.mainbox_projects_image{
+  background: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
+  background: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+  color: white; /* Text color */
+  padding: 5%; /* Padding inside the box */
+  margin-left:5%;
+  margin-right:5%;
+  /*margin-top:5%; */
+  margin-bottom: 10%; 
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  /* flex: 1 1 1 20%;
+  max-width: 40%; */
+  box-sizing: border-box;
+}
+
+.col{
+    flex: 1;
+}
+
+.leftbox{
+  flex: 0 0 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightBox{
+    flex: 1;
+    padding-left: 5%;
+    display: flex;
+    justify-content: center; /* Horizontal alignment */
+    align-items: center;
+        object-fit: cover;
+    
+      
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.flexbox_projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.pics{
+    width: 100%;
+    height:auto;
+}
+
+.proj_pics{
+  width: 50%;
+  height:auto;
+
+}
+
+.img_box{
+  padding-top:6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+    font-size: 15px;
+}
+
+.role{
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+.company{
+  padding-top:2%;
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+
+.gradient-text {
+    background-image: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background-image: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 100px;
+    text-align: center;
+    font-family: palatino, serif;
+    padding: 12% 0% 2.5% 0%;
+    margin-bottom: 1%;
+    width: 100vw;
+    height: 57vh;
+  }
+
+  .summary{
+    font-size: 25px;
+    padding:2.5% 20% 0% 20%;
+    font-family: sans-serif;
+  }
+
+  .flexy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background-image: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+
+    max-height: fit-content;
+  }
+
+  .flexy1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background-image: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    margin-top:5%;
+    max-height: fit-content;
+  }
+
+  .picy{
+    flex:1;
+  }
+  .descy{
+    flex:1;
+    color: white;
+    text-align: center;
+    font-size: 15spx;
+    padding:0% 4% 0% 4%;
+  }
+
+  ul{
+    text-align: left;
+  }
+
+  @media (max-width: 1000px) {
+    .flexbox {
+      flex-direction: column;
+    }}
+
+    @media (max-width: 1000px) {
+        .mainbox {
+          max-width: 90%;
+        }}
+        .thick-line {
+            height: 30px; /* Set the height of the line */
+            background-color: #957C3D; /* Set the color of the line */
+            margin-top: -.28%;
+          }
+  .header{
+    font-size: 20px;
+    padding-bottom:5%;
+  }

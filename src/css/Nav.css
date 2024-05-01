@@ -9,7 +9,7 @@
         height: 0;
         border: 80px solid rgba(0,0,0,0);
         border-top: 0 solid;
-        border-bottom: 110px solid rgba(1, 1, 1, .4);
+        border-bottom: 110px solid rgba(111, 163, 239, .4);
         -webkit-border-radius: 20px 20px 0 0;
         border-radius: 20px 20px 0 0;
         font: normal 100%/normal Arial, Helvetica, sans-serif;
@@ -23,6 +23,7 @@
         position: relative;
         transition: all 0.7s ease;
         padding-left: 2%;
+        
     }
 
     .navbar {
@@ -31,13 +32,13 @@
         display: flex;
         overflow: hidden;
         justify-content: center;
-        height: 100px;
+        height: 80px;
         z-index: 1;
     }
 
         .navbar a {
             float: left;
-            font-size: 16px;
+            font-size: 20px;
             color: white;
             text-align: center;
             padding: 14px 25px;
@@ -48,7 +49,7 @@
         }
 
     .subnavbtn {
-        font-size: 16px;
+        font-size: 20px;
         border: none;
         outline: none;
         color: white;
@@ -57,14 +58,17 @@
         font-family: inherit;
         margin: 0;
         text-transform: uppercase;
-        letter-spacing: 4px;
+        letter-spacing: 8px;
         transition: all 0.5s ease;
     }
 
         .navbar a:hover, .subnavbtn:hover {
-            background: #8CA6DB;
-            color: black;
+            /* background: #8CA6DB; */
+            background: -webkit-linear-gradient(to bottom right, #000000, #434343); /* chrome 10-25, safari 5.1-6 */
+            background: linear-gradient(to bottom right, #000000, #434343);
+            color: white;
             border-radius: 5px;
+            margin-top: 1.7%;
         }
 
     #trapezoid a {
@@ -76,7 +80,7 @@
         transform: rotate(180deg);
     }
 
-    .text{
+    .text1{
         display:flex;
         justify-content:space-evenly;
     }

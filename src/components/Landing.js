@@ -1,27 +1,64 @@
 import React from "react";
+import { useEffect } from 'react';
 import '../css/Home.css';
 import profile from '../images/Profile1.jpg'
 import { SliderData } from '../components/SliderDate';
 import ImageSlider from "../components/ImageSlider";
 import '../css/slideshow.css';
+import { useHistory } from 'react-router-dom';
 
 
 
 function Landing() {
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.arrowdown').forEach(function(element) {
+            element.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default anchor behavior
+                const targetId = this.getAttribute('href').substring(1); // Get the target ID
+                const targetElement = document.getElementById(targetId); // Find the target element
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target element
+                }
+                return false; // Prevent further propagation of the event
+            });
+        });
+    });
+
+    useEffect(() => {
+        document.querySelectorAll('.arrowdown').forEach(function(wl) {
+            wl.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default anchor behavior
+                const targetId = this.getAttribute('href').substring(1); // Get the target ID
+                const targetElement = document.getElementById(targetId); // Find the target element
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target element
+                }
+                return false; // Prevent further propagation of the event
+            });
+        });
+
+    },[])
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    }, []);
+    
+
     return (
         <div>
-            <div id="firstsection">
+            <div class="firstsection">
                 <div class="flex-container">
                     <div class="first">
-                        <h1>Hi I'm Sidd</h1>
+                        <div class="name" >Hi I'm Sidd</div>
                         <h4>Welcome to my website</h4>
                     </div>
                     <img class="mypic" src={profile} />
                 </div>
                 {/*    <a href="#secondsection" class="down-arrow"></a>*/}
                 {/*    <p><i class="arrow down"></i></p>*/}
-                <p class="scrolldown">Scroll Down</p>
-            {/*    <div class="arrowd"><a class="arrowdown"></a></div>*/}
+                {/* <a href="#secondsection" class="scrolldown">Scroll Down</a> */}
+               <div class="arrowd"><a href="#secondsection" class="arrowdown"></a></div>
             </div>
             <div id="secondsection">
                 <div class="flexcontainer">

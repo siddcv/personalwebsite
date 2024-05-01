@@ -1,6 +1,7 @@
 ﻿.myimages {
     max-width: 70%;
     height: auto;
+    width:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +19,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left:10rem
+        /* padding-left:10rem */
     }
 }
 

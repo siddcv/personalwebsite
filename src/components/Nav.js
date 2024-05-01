@@ -7,7 +7,7 @@ function Nav() {
     return (
         < nav class="navbar" >
             <div id="trapezoid">
-                <div class="text">
+                <div class="text1">
                     <div><Link to="/">Home</Link></div>
                     <div><Link to="/experience">Experiences</Link></div>
                     <div><Link to="/projects">My Projects</Link></div>

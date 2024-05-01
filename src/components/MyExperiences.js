@@ -1,98 +1,284 @@
 // JavaScript source code
 import React from "react";
 import '../css/Experience.css';
+import intern from '../images/intern.jpg'
+import tour from '../images/tour.jpg'
+import niners from '../images/49ers.jpg'
+import etc from '../images/ETC.png'
+import csu from '../images/csu.png'
+import work from '../images/work.png'
+import { useEffect } from 'react';
 
 function MyExperiences() {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    }, []);
     return (
+        
         <div>
-            <div class="exp">
-                <div class="flex1">
-                    <h3>Cisco Systems</h3>
-                    <h3> June 2021 - September 2021 </h3>
+            <div class="gradient-text">
+                <div>Work and Leadership Experiences</div>
+                <div class="summary">
+                    A quick summary of some of the exciting opportunities I've had, including pictures of amazing people with whom I've worked alongside
                 </div>
-                <h3> Undergraduate Technical Intern </h3>
-                <p> Having had the experience of a previous internship, I felt confident and well equipped going into this internship but the idea of a virtual internship was daunting.
-                    Going into this internship, I went in with the goal of improving myself in areas - such as networking and connecting with my colleagues, asking for help and taking a more active role in picking up work - that I felt I didn't perform as well during my first internship.
-                    The ease of access to fellow interns, mentors and colleagues for ideas and advice were a huge part of my first internship and not being in the office was going to be a challenge.
-                    I had a great team and system set up for my virtual internship and I was able to make the most out of it.
-                    I took on 3 projects each of which had me operate under a different capcity. In the capacity of a project manager role, I lead a team of 4 interns on a project to build a proof of concept to demonstate a crowdsourcing platform which could be used by the planning team on Cisco's supply chain to increase forecasting accuracy.
-                    On another project I defined and built the capabilities of an email automaiton system which would be tiggered by a business event primarily utilizing MIME messaging through Java which was pushed into final production.
-                    Lastly I worked on the frontend development under two software engineers of a web application by making it responsive and adding other functionalities.
-                </p>
+                
             </div>
-
-            <div class="exp">
-                <div class="flex1">
-                    <h3>Cisco Systems</h3>
-                    <h3> June 2019 - September 2019 </h3>
+            <div class="flexy1">
+                <div class="picy">
+                    <img class="pics" src={work} />
                 </div>
-                <h3> Undergraduate Technical Intern </h3>
-                <p>Going into my first technical internship I wasn't sure what to expect and decideed to do my best and absorb everything that I could from this experience.
-                    Speaking to many managers, one of the things that I picked up was the importance of software engineers knowing why they are working towards a certain goal rather than just focusing on the how. As a result I decided to ty to master the domain I was working in which was the Supply Chain side of Cisco.
-                    I made it a point to speak to colleagues on the business side of the supply chain team to understand how Cisco's supply chain works.
-                    Additionally specialized in the font end development of a web app dashboard using AngularJS and Spring MVC frameworks. Through the development of this page I spoke to several UI/UX designers to learn how I could improve customer interactions with my webpage.
-                    One big skill, I took fom this internship were the soft skills and the nuances of working within a team.
-
-                </p>
+                <div class="descy">
+                <div class="company">Cisco Systems</div>
+                        <div class="role">Software Engineer II</div>
+                        <div class="text">
+                        Starting my career at Cisco was an amazing opportunity, especially having to take over a senior engineers' responsibilities 
+                            as they went on extended leave really challenged me and allowed me to push myself to perform the following:
+                            <ul>
+                                <li>Managed 3 of 11 SpringBoot Java apps, overseeing maintenance and leading development based on new business
+                                    requirements. Ensured SCA/SAST security compliance, Junit requirements, facilitated Kafka messaging, and supported Kubernetes containerization</li>
+                                <li>Designed and showcased a proof of concept to integrate a Java application with CyberArk Conjur via REST APIs for improved
+                                    security. Implemented modifications across all 11 applications, ensuring full operation with the Conjur security platform</li>
+                                <li>Built an in-house tool utilizing Angular's framework to replace Trinamix's Fabconnect tool. It served as a Platform as a Service
+                                    (PaaS) addition to Oracle Cloud Manufacturing
+                                </li>
+                                <li>Responsible for applications that handled every order passed through Cisco's new cloud supply chain initiative generating $4
+                                    billion in revenue
+                                </li>
+                            </ul> 
+                            </div>
+                     
+                </div>
             </div>
+            <div class="thick-line"></div>
+            <div class="flexy">
+                <div class="descy">
+                <div class="company">Cisco Systems</div>
+                        <div class="role">Undergraduate Technical Intern</div>
+                        <div class="text">
+                        During my first internship I specialized and learnt the following skills:
+                            <ul>
+                                <li>Front end development of a web app dashboard using AngularJS and Spring MVC frameworks</li>
+                                <li>UI/UX design principles through speaking with several UI/UX designers</li>
+                                <li>The soft skills and the nuances of working within a team as well as understanding the Supply Chain domain</li>
+                            </ul>
+                            Going into my second internship,I took on 3 projects each of which had me operate under a different capcity.
+                            <ul>
+                                <li>I lead a team of 4 interns on a project to build a proof of concept to demonstate a crowdsourcing platform which could be used by the planning team on Cisco's supply chain to increase forecasting accuracy.</li>
+                                <li>I defined and built the capabilities of an email automaiton system which would be tiggered by a business event primarily utilizing MIME messaging</li>
+                                <li>I worked on the frontend development under two software engineers making it responsive as well as adding other functionalities.</li>
+                            </ul> 
 
-            <div class="exp">
-                <div class="flex1">
-                    <h3>Santa Clara University</h3>
-                    <h3> December 2019 - Present </h3>
+</div>
+                      
                 </div>
-                <h3> Student Ambassador School of Engineering - Tour Guide </h3>
-                <p>Over the course of the past 2 years, I have served as a tour guide for the school of engineering here at SCU, guiding prospective high school students through the college application process.
-                    It was a challenge at first as the idea of talking in front of 20+ people pitching my university while also trying my best to not fall down while walking backwards was daunting, however over time I was able to confidently lead tours.
-                    This was an interesting experience as for the first year we had to lead virtual tours online due to the pandemic which required us to have to learn a whole new set of skills.
-
-                </p>
+                <div class="picy">
+                    <img class="pics" src={intern} />
+                </div>
             </div>
+            <div class="thick-line"></div>
 
-            <div class="exp">
-                <div class="flex1">
-                    <h3>Santa Clara University</h3>
-                    <h3> June 2021 - Present </h3>
+
+            <div class="flexy">
+                <div class="picy">
+                    <img class="pics" src={etc} />
                 </div>
-                <h3> Student Ambassador School of Engineering - Peer Advisor </h3>
-                <p> During my senior year here at SCU, I have served as a peer advisor helping 30 freshmen in the school of engineering by guiding them through their first year and being there point of contact fo any issues/questions.
-                    It has required me to learn to manage my time better as I was responsible for leading 30 students and communicating relevant information to ensure they reach certain milestones by specific timelines.
-                </p>
+                <div class="descy">
+                <div class="company">Cisco ETC-San Jose</div>
+                        <div class="role">Data & Analytics Lead</div>
+                        <div class="text">
+                        Emerging Talent Chapter (ETC) is an inclusion and collaboration organization at Cisco with its San Jose chapter being the largest with 1800 members. 
+                            I joined the board as the Data and Analytics Lead and my responsibilities included 
+                            <ul>
+                                <li>Helping to collect and organize several metrics from our members about our events   </li>
+                                <li>Consolodating and presenting them to the leadership team helping them make data-driven decisions improving our member satisfaction by 11.34%. </li>
+                                <li>Standardize event data collection procedures and metrics which were then implemented across all ETC chapters in Cisco</li>
+                            </ul>     
+                
+
+</div>
+                        </div>
             </div>
+            <div class="thick-line"></div>
+            <div class="flexy">
+                <div class="descy">
+                <div class="company">Santa Clara University</div>
+                        <div class="role">Tour Guide & Peer Advisor</div>
+                        <div class="text">
+                            
+                        Over the course of 2 years, I have served as a tour guide and a peer advisor for the school of engineering at SCU.
+                        As a Tour Guide I was responsible for:
+                        <ul>
+                            <li>Leading college tours of ~20 students and parents helped sharpen my public speaking skills... and my ability to walk backwards.</li>
+                            <li>Answering questions high school students and parents had about our college specifically the school of engineering</li>
+                        </ul>  
+                        As a Peer Advisor I was responsible for:
+                        <ul>
+                            <li>Being the point of contact for 30 freshmen, organizing social events, communicating relevent information, as well as helping them plan out their class schedule to ensure they graduate on time.</li>
+                        </ul>                   
+                
 
-            <div class="exp">
-                <div class="flex1">
-                    <h3>San Francisco 49ers</h3>
-                    <h3> June 2021 - Present </h3>
+</div></div>
+                <div class="picy">
+                    <img class="pics" src={tour} />
                 </div>
-                <h3> Guest Representative Services </h3>
-                <p> During 49ers gamedays at Santa Clara I aided the organization by aiding the fans to ensure they have the best experience as possible.
-                    While I do get a great view of every game I have also have had to put myself in uncomfortable situations when fans don't abide to stadium rules which has taught me how I myself react to certain situations and how I could deal with conflict better
-                </p>
             </div>
+            <div class="thick-line"></div>
 
-            <div class="exp">
-                <div class="flex1">
-                    <h3>Commuter Student Union</h3>
-                    <h3> August 2020 - Present </h3>
+            <div class="flexy">
+                <div class="picy">
+                    <img class="pics" src={niners} />
                 </div>
-                <h3> Club President & Treasurer</h3>
-                <p> Over the course of 2 years I have served on the board of the commuter student union which is designed to ensure students who don't live on campus to have a sense of community at college.
-                    The complexity of planning events has been a great learning tool as the pressure of promising free food to college students and not delivering is hard to replicate
-                </p>
+                <div class="descy">
+                <div class="company">San Francisco 49ers</div>
+                        <div class="role">Guest Services Representative</div>
+                        <div class="text">
+                        During 49ers gamedays and concerts at Santa Clara I worked to ensure that fans would have the best experience as possible.
+                                      Managing 2 sections of the stadium has taught me a lot and required me to think quickly on my feet. Additionally this job has given me several memorable experiences allowing me to watch the 49ers win the NFC Championship and seeing Coldplay perform on their tour.     
+               
+
+</div>
+                        </div>
             </div>
+            <div class="thick-line"></div>
 
-            <div class="exp">
-                <div class="flex1">
-                    <h3>Blach Middle School</h3>
-                    <h3> October 2019 - December 2019 </h3>
+            <div class="flexy">
+                <div class="descy">
+                <div class="company">Commuter Student Union</div>
+                        <div class="role">President and Tour Guide</div>
+                        <div class="text">
+                        Over the course of 2 years I have served on the board of the commuter student union which is designed to ensure students who don't live on campus to have a sense of community at college.
+                        The complexity of planning events has been a great learning tool as the pressure of promising free food to college students and not delivering is hard to replicate                       
+                
+
+</div>
+                        </div>
+                <div class="picy">
+                    <img class="pics" src={csu} />
                 </div>
-                <h3> Flag Football Head Coach </h3>
-                <p>Over the course of 4 months I worked with a group of middle school boys at Blach Middle School in Los Altos in coaching their flag football team. It was a great experience and I had a lot of fun working with and learning from the kids I was working with about creating a fun but productive environment
-                </p>
             </div>
             
+
+
+
+            {/* <div class="flexbox">
+            <div class="mainbox">
+                <div class="leftbox">
+                        <div class="company">Cisco Systems</div>
+                        <div class="role">Software Engineer II</div>
+                        <div class="text">
+                            Starting my career at Cisco was an amazing opportunity, especially having to take over a senior engineers' responsibilities 
+                            as they went on extended leave really challenged me and allowed me to push myself to perform the following:
+                            <ul>
+                                <li>Managed 3 of 11 SpringBoot Java apps, overseeing maintenance and leading development based on new business
+                                    requirements. Ensured SCA/SAST security compliance, Junit requirements, facilitated Kafka messaging, and supported Kubernetes containerization</li>
+                                <li>Designed and showcased a proof of concept to integrate a Java application with CyberArk Conjur via REST APIs for improved
+                                    security. Implemented modifications across all 11 applications, ensuring full operation with the Conjur security platform</li>
+                                <li>Built an in-house tool utilizing Angular's framework to replace Trinamix's Fabconnect tool. It served as a Platform as a Service
+                                    (PaaS) addition to Oracle Cloud Manufacturing
+                                </li>
+                                <li>Responsible for applications that handled every order passed through Cisco's new cloud supply chain initiative generating $4
+                                    billion in revenue
+                                </li>
+                            </ul>                       
+                            
+                        </div>
+                </div>
+                <div class="rightBox">
+                    <img class="pics" src={work} />
+                </div>
+            </div>
+            <div class="mainbox">
+                <div class="leftbox">
+                        <div class="company">Cisco Systems</div>
+                        <div class="role">Undergraduate Technical Intern</div>
+                        <div class="text">
+                            During my first internship I specialized and learnt the following skills:
+                            <ul>
+                                <li>Front end development of a web app dashboard using AngularJS and Spring MVC frameworks</li>
+                                <li>UI/UX design principles through speaking with several UI/UX designers</li>
+                                <li>The soft skills and the nuances of working within a team as well as understanding the Supply Chain domain</li>
+                            </ul>
+                            Going into my second internship, I went in with the goal of improving myself in areas such as networking and taking a more active role in picking up work.
+                            I took on 3 projects each of which had me operate under a different capcity.
+                            <ul>
+                                <li>I lead a team of 4 interns on a project to build a proof of concept to demonstate a crowdsourcing platform which could be used by the planning team on Cisco's supply chain to increase forecasting accuracy.</li>
+                                <li>I defined and built the capabilities of an email automaiton system which would be tiggered by a business event primarily utilizing MIME messaging</li>
+                                <li>I worked on the frontend development under two software engineers making it responsive as well as adding other functionalities.</li>
+                            </ul> 
+                           
+                            
+                        </div>
+                </div>
+                <div class="rightBox">
+                    <img class="pics" src={intern} />
+   
+                </div>
+            </div>
+            <div class="mainbox">
+                <div class="leftbox">
+                        <div class="company">Cisco ETC-San Jose</div>
+                        <div class="role">Data & Analytics Lead</div>
+                        <div class="text">
+                            Emerging Talent Chapter (ETC) is an inclusion and collaboration organization at Cisco with its San Jose chapter being the largest with 1800 members. 
+                            I joined the board as the Data and Analytics Lead helping to collect and organize several metrics from our members about our events and then presenting them to the leadership team helping them make data-driven decisions improving our member satisfaction by 11.34%.
+                            We were able to standardize event data collection procedures and metrics which were then implemented across all ETC chapters in Cisco     
+                        </div>
+                </div>
+                <div class="rightBox">
+                    <div>
+                    <img class="pics" src={etc} />
+                    </div>
+                </div>
+            </div>
+            <div class="mainbox">
+                <div class="leftbox">
+                        <div class="company">Santa Clara University</div>
+                        <div class="role">Tour Guide & Peer Advisor</div>
+                        <div class="text">
+                        Over the course of 2 years, I have served as a tour guide and a peer advisor for the school of engineering at SCU, answering question high school students had about our college and aiding freshmen navigate their first year of college.
+                        Leading college tours of ~20 students and parents helped sharpen my public speaking skills... and my ability to walk backwards.
+                        During my senior year, I have served as a peer advisor being the point of contact for 30 freshmen, organizing social events, communicating relevent information, as well as helping them plan out their class schedule to ensure they graduate on time.     
+                        </div>
+                </div>
+                <div class="rightBox">
+                    <div>
+                    <img class="pics" src={tour} />
+                    </div>
+                </div>
+            </div>
+            <div class="mainbox">
+                <div class="leftbox">
+                    <div class="company">San Francisco 49ers</div>
+                    <div class="role">Guest Service Representative</div>
+                    <div class="text">During 49ers gamedays and concerts at Santa Clara I worked to ensure that fans would have the best experience as possible.
+                                      Managing 2 sections of the stadium has taught me a lot and required me to think quickly on my feet. Additionally this job has given me several memorable experiences allowing me to watch the 49ers win the NFC Championship and seeing Coldplay perform on their tour.
+                    </div>
+                </div>
+                <div class="rightBox">
+                    <div>
+                    <img class="pics" src={niners} />
+                    </div>
+                </div>
+            </div>
+            <div class="mainbox">
+                <div class="leftbox">
+                        <div class="company">Commuter Student Union</div>
+                        <div class="role">President & Treasurer</div>
+                        <div class="text">
+                        Over the course of 2 years I have served on the board of the commuter student union which is designed to ensure students who don't live on campus to have a sense of community at college.
+                        The complexity of planning events has been a great learning tool as the pressure of promising free food to college students and not delivering is hard to replicate       
+                        </div>
+                </div>
+                <div class="rightBox">
+                    <div>
+                    <img class="pics" src={csu} />
+                    </div>
+                </div>
+            </div>
+        </div> */}
+
         </div>
+        
         );
 
 }

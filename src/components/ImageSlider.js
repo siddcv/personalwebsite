@@ -20,50 +20,6 @@ const ImageSlider = ({ slides }) => {
         setCurrent(current === 0 ? length - 1 : current - 1);
     };
 
-    //return (
-    //    <section className="slider">
-    //        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}  />
-    //        {SliderData.map((slide, index) => {
-    //                return (
-    //                    <div className={index === current ? 'slide active' : 'slide'} key={index}>
-    //                        {index === current && (
-    //                            <img src={slide.image} alt='Me' className="myimages" />
-    //                        )}
-    //                    </div>
-    //                ) 
-    //            }
-    //            )
-    //        }
-    //        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-
-    //    </section>
-    //)
-    //return (
-    //    <section className="slider">
-    //        {SliderData.map((slide, index) => {
-    //            return (
-    //                <div className={index === current ? 'slide active' : 'slide'} key={index}>
-    //                    {index === current && (
-    //                        <div class="flex1">
-    //                            <div>
-    //                                <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-    //                            </div>
-    //                            <div>
-    //                                <img src={slide.image} alt='Me' className="myimages" />
-    //                            </div>
-    //                            <div>
-    //                                <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-    //                            </div>
-    //                        </div>
-    //                    )}
-    //                </div>
-    //            )
-    //        }
-    //        )
-    //        }
-
-    //    </section>
-    //)
     return (
         <section className="slider">
             {SliderData.map((slide, index) => {
@@ -90,58 +46,6 @@ const ImageSlider = ({ slides }) => {
 
         </section>
     )
-    //return (
-    //    <section className="slider">
-    //        {SliderData.map((slide, index) => {
-    //            return (
-    //                <div className={index === current ? 'slide active' : 'slide'} key={index}>
-    //                    {index === current && (
-    //                        <div class="flex1">
-    //                            <div>
-    //                                <button><img src={arrow}/></button>
-    //                            </div>
-    //                            <div>
-    //                                <img src={slide.image} alt='Me' className="myimages" />
-    //                            </div>
-    //                            <div>
-    //                                <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-    //                            </div>
-    //                        </div>
-    //                    )}
-    //                </div>
-    //            )
-    //        }
-    //        )
-    //        }
-
-    //    </section>
-    //)
-    //return (
-    //    <section className="slider">
-    //        {SliderData.map((slide, index) => {
-    //            return (
-    //                <div className={index === current ? 'slide active' : 'slide'} key={index}>
-    //                    {index === current && (
-    //                        <div>
-    //                            <div class="left">
-    //                                <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-    //                            </div>
-    //                            <div class="middle">
-    //                                <img src={slide.image} alt='Me' className="myimages" />
-    //                            </div>
-    //                            <div class="right">
-    //                                <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-    //                            </div>
-    //                        </div>
-    //                    )}
-    //                </div>
-    //            )
-    //        }
-    //        )
-    //        }
-
-    //    </section>
-    //)
 }
 
 export default ImageSlider

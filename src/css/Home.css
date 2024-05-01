@@ -16,7 +16,7 @@
 /*margin: 0px;
 }*/
 body {
-    min-width: 800px;
+    /*min-width: 800px;*/
     background: -webkit-linear-gradient(to bottom right, #000000, #434343); /* chrome 10-25, safari 5.1-6 */
     background: linear-gradient(to bottom right, #000000, #434343); /*w3c, ie 10+/ edge, firefox 16+, chrome 26+, opera 12+, safari 7+*/
 }
@@ -25,13 +25,18 @@ body {
     text-align:center;
     color:white;
 }
+/* 
+.firstsection{
+     padding-top: 5%; 
+} */
 
 html{
     scroll-behavior:smooth;
 }
 
 .mypic{
-    max-width:23%;
+    max-width:30%;
+    width:28%;
     height:auto;
     border-radius:90%/80%;
 }
@@ -40,7 +45,7 @@ html{
     flex-direction:row;
     justify-content:space-around;
     align-items:center;
-    padding-top:2rem;
+    padding-top:.5%;
 
 }
 .flexcontainer {
@@ -72,10 +77,21 @@ html{
         transform: rotateZ(45deg);
     }
 */
-#secondsection{
-    padding-top:10rem;
+#firstsection{
+    height:80vh;
 }
 
+#secondsection{
+    height:90vh;
+    padding-top:8%;
+}
+
+.first-col{
+    flex:1 1;
+}
+.second-col{
+    flex:1 1;
+}
 /*.arrow {
     border: solid white;
     border-width: 0 3px 3px 0;
@@ -89,8 +105,8 @@ html{
 }*/
 .arrowdown {
     box-sizing: border-box;
-    height: 5vw;
-    width: 5vw;
+    height: 2vw;
+    width: 2vw;
     border-style: solid;
     border-color: white;
     border-width: 0px 1px 1px 0px;
@@ -102,13 +118,14 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* padding-top:1%; */
 
 }
 
-    .arrowdown:hover {
+    /* .arrowdown:hover {
         border-bottom-width: 4px;
         border-right-width: 4px;
-    }
+    } */
 
 .arrowup {
     box-sizing: border-box;
@@ -145,11 +162,21 @@ p{
 }
 
 .scrolldown{
-    padding-top:2rem;
+    padding-top:.5%;
     text-align:center;
     color:white;
 }
 .scrollup {
     text-align: center;
     color: white;
+}
+
+.name{
+    font-size: 70px;
+}
+
+.scrolldown{
+    display: block;
+    text-align: center;
+    cursor: pointer;
 }

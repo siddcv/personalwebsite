@@ -1,5 +1,6 @@
 // JavaScript source code
 import React from "react";
+import { useEffect } from 'react';
 import '../css/Contact.css';
 import profile from '../images/RWD_4842.jpg'
 import Pdf from '../images/Resume.pdf';
@@ -7,8 +8,11 @@ import { FaLinkedin, FaGithubAlt, FaEnvelopeOpen, FaFilePdf } from 'react-icons/
 
 
 function Contacts() {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    }, []);
     const pStyle = {
-        fontSize: '15px',
+        fontSize: '20px',
       };    
     return (
         <div class="mainBox">
