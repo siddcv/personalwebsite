@@ -10,6 +10,38 @@ import work from '../images/work.png'
 import { useEffect } from 'react';
 
 function MyExperiences() {
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.arrowdown1').forEach(function(element) {
+            element.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default anchor behavior
+                const targetId = this.getAttribute('href').substring(1); // Get the target ID
+                const targetElement = document.getElementById(targetId); // Find the target element
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target element
+                }
+                return false; // Prevent further propagation of the event
+            });
+        });
+    });
+
+    useEffect(() => {
+        document.querySelectorAll('.arrowdown1').forEach(function(wl) {
+            wl.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default anchor behavior
+                const targetId = this.getAttribute('href').substring(1); // Get the target ID
+                const targetElement = document.getElementById(targetId); // Find the target element
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target element
+                }
+                return false; // Prevent further propagation of the event
+            });
+        });
+
+    },[])
+
+
+
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to the top of the page
     }, []);
@@ -22,11 +54,11 @@ function MyExperiences() {
                 <div class="summary">
                     A quick summary of some of the exciting opportunities I've had, including pictures of amazing people with whom I've worked alongside
                 </div>
-                
+                <div class="arrowd1"><a href="#secondsection1" class="arrowdown1"></a></div>
             </div>
-            {/* <div class="arrowd"><a href="#secondsection" class="arrowdown"></a></div> */}
+            
             {/* </div> */}
-            <div class="flexy1">
+            <div id="secondsection1" class="flexy">
                 <div class="picy">
                     <img class="pics" src={work} />
                 </div>

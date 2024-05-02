@@ -26,6 +26,38 @@ import piano from '../images/Piano.JPG'
 
 
 function MyExperiences() {
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.arrowdown1').forEach(function(element) {
+            element.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default anchor behavior
+                const targetId = this.getAttribute('href').substring(1); // Get the target ID
+                const targetElement = document.getElementById(targetId); // Find the target element
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target element
+                }
+                return false; // Prevent further propagation of the event
+            });
+        });
+    });
+
+    useEffect(() => {
+        document.querySelectorAll('.arrowdown1').forEach(function(wl) {
+            wl.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default anchor behavior
+                const targetId = this.getAttribute('href').substring(1); // Get the target ID
+                const targetElement = document.getElementById(targetId); // Find the target element
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target element
+                }
+                return false; // Prevent further propagation of the event
+            });
+        });
+
+    },[])
+
+
+
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to the top of the page
     }, []);
@@ -35,8 +67,9 @@ function MyExperiences() {
                 <div>Projects</div>
                 <div class="summary">
                     A collection of some of the projects that I decided to take up based off of my interests which were great learning experiences</div>
+                <div class="arrowd1"><a href="#secondsection1" class="arrowdown1"></a></div>
             </div>
-            <div class="flexbox_projects">
+            <div id="secondsection1" class="flexbox_projects">
                 <div class="col">
                     <div class="mainbox_projects">
                         <div class="leftbox">
