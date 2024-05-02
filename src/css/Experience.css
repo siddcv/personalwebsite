@@ -29,8 +29,8 @@ img {
 .mainbox{
     /*background-color: #8CA6DB; /* Blue color */
     /* background-color: #002349; */
-    background: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
-    background: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background: -webkit-linear-gradient(to bottom right, #78B3EA, #4169E1);
+    background: linear-gradient(to bottom right, #78B3EA, #4169E1);
     color: white; /* Text color */
     padding: 1%; /* Padding inside the box */
     /* margin-left:20%;
@@ -49,8 +49,8 @@ img {
 .mainbox_projects{
     /*background-color: #8CA6DB; /* Blue color */
     /* background-color: #002349; */
-    background: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
-    background: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background: -webkit-linear-gradient(to bottom right, #78B3EA, #4169E1);
+    background: linear-gradient(to bottom right, #78B3EA, #4169E1);
     color: white; /* Text color */
     padding: 5%; /* Padding inside the box */
     margin-left:5%;
@@ -65,8 +65,8 @@ img {
 }
 
 .mainbox_projects_image{
-  background: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
-  background: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+  background: -webkit-linear-gradient(to bottom right, #78B3EA, #4169E1);
+  background: linear-gradient(to bottom right, #78B3EA, #4169E1);
   color: white; /* Text color */
   padding: 5%; /* Padding inside the box */
   margin-left:5%;
@@ -183,8 +183,8 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-image: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
-    background-image: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background-image: -webkit-linear-gradient(to bottom right, #78B3EA, #4169E1);
+    background-image: linear-gradient(to bottom right, #78B3EA, #4169E1);
     max-height: fit-content;
   }
 
@@ -192,8 +192,8 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-image: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
-    background-image: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background-image: -webkit-linear-gradient(to bottom right, #78B3EA, #4169E1);
+    background-image: linear-gradient(to bottom right, #78B3EA, #4169E1);
 
     max-height: fit-content;
   }

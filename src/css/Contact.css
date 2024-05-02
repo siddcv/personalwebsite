@@ -12,8 +12,8 @@
     /* background-color: #8CA6DB; Blue color */
     color: white; /* Text color */
     /* border: 2px solid #8CA6DB; Darker blue border */
-    background: -webkit-linear-gradient(to bottom right, #ADD8E6, #4169E1);
-background: linear-gradient(to bottom right, #ADD8E6, #4169E1);
+    background: -webkit-linear-gradient(to bottom right,  #78B3EA, #4169E1);
+background: linear-gradient(to bottom right,  #78B3EA, #4169E1);
     padding: 2%; /* Padding inside the box */
     display: flex;
     align-items: center;

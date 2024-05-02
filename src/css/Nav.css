@@ -64,7 +64,7 @@
 
         .navbar a:hover, .subnavbtn:hover {
             /* background: #8CA6DB; */
-            background: -webkit-linear-gradient(to bottom right, #000000, #434343); /* chrome 10-25, safari 5.1-6 */
+            background: -webkit-linear-gradient(to bottom right, #000000, #434343); 
             background: linear-gradient(to bottom right, #000000, #434343);
             color: white;
             border-radius: 5px;
