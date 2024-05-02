@@ -16,6 +16,7 @@ function MyExperiences() {
     return (
         
         <div>
+            {/* <div class="top"> */}
             <div class="gradient-text">
                 <div>Work and Leadership Experiences</div>
                 <div class="summary">
@@ -23,6 +24,8 @@ function MyExperiences() {
                 </div>
                 
             </div>
+            {/* <div class="arrowd"><a href="#secondsection" class="arrowdown"></a></div> */}
+            {/* </div> */}
             <div class="flexy1">
                 <div class="picy">
                     <img class="pics" src={work} />

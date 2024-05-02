@@ -108,7 +108,7 @@ html{
     height: 2vw;
     width: 2vw;
     border-style: solid;
-    border-color: white;
+    border-color:  rgba(111, 163, 239);
     border-width: 0px 1px 1px 0px;
     transform: rotate(45deg);
     transition: border-width 150ms ease-in-out;
@@ -120,6 +120,12 @@ html{
     justify-content: center;
     /* padding-top:1%; */
 
+}
+
+.arrowdown:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+    cursor: pointer;
 }
 
     /* .arrowdown:hover {

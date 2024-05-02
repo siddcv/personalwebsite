@@ -105,7 +105,7 @@
     height: 2vw;
     width: 2vw;
     border-style: solid;
-    border-color: white;
+    border-color: rgba(111, 163, 239);
     border-width: 0px 1px 1px 0px;
     transform: rotate(135deg);
     transition: border-width 150ms ease-in-out;
@@ -121,6 +121,7 @@
 .arrowleft:hover {
     border-bottom-width: 4px;
     border-right-width: 4px;
+    cursor: pointer;
 }
 
 .arrowright {
@@ -128,7 +129,7 @@
     height: 2vw;
     width: 2vw;
     border-style: solid;
-    border-color: white;
+    border-color: rgba(111, 163, 239);
     border-width: 0px 1px 1px 0px;
     transform: rotate(315deg);
     transition: border-width 150ms ease-in-out;
@@ -144,4 +145,5 @@
 .arrowright:hover {
     border-bottom-width: 4px;
     border-right-width: 4px;
+    cursor: pointer;
 }
