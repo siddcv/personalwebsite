@@ -12,7 +12,7 @@ function Contacts() {
         window.scrollTo(0, 0); // Scroll to the top of the page
     }, []);
     const pStyle = {
-        fontSize: '20px',
+        fontSize: '2vh',
       };    
     return (
         <div class="mainBox">

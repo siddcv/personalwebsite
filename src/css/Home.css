@@ -83,6 +83,9 @@ html{
 #secondsection{
     height:90vh;
     padding-top:8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .first-col{
@@ -96,6 +99,7 @@ html{
 @media (max-width: 1050px) {
     .first-col {
       flex-basis: 100%; /* Full width for small screens */
+      text-align: center;
     }
     .first-col:nth-child(1) { order: 2; }
     .first-col:nth-child(2) { order: 1; }
@@ -205,7 +209,6 @@ p{
         .flexcontainer{
           flex-direction: column;
           justify-content: space-evenly;
-          height:80vh
         }}
     @media (max-width: 1050px) {
         .mypic{
@@ -213,6 +216,11 @@ p{
         }}
 
         @media (max-width: 1050px) {
+            .flex1{
+              padding-top: 20%;
+            }}
+
+        /* @media (max-width: 1050px) {
             #secondsection{
               min-height:150vh;
             }}
@@ -220,4 +228,4 @@ p{
             @media (max-width: 925px) {
                 #secondsection{
                   min-height:180vh;
-                }}
+                }} */
