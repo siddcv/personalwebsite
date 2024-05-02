@@ -109,18 +109,16 @@ function MyExperiences() {
                         During the summer of 2020, I grew a strong interest in the stock market and learning about stocks however, I couldn't find a central place that would have all the necessary information for me to make a decision about picking stocks.
                     Therefore I took it upon myself to do that myself. I strengthened my python skills and used webscraping techniques and python data structure to compile a database with all the releveant information about 2830 Nasdaq companies.
                     Further I used pivot tables in Excel to use data visualization to make the data more easily comprehensible.
-                
-                 The repository can be found at https://github.com/siddcv/NasdaqDataBase
 
                         </div>
 
                         </div>
                         <div class="rightBox">
-                            {/* <div> */}
+
                             <img class="pics" src={db} />
-                            {/* </div> */}
                         </div>
                     </div>
+
                     <div class="mainbox_projects">
                         <div class="leftbox">
                         <div class="header">AI/ML Buildathon Cisco Supply Chain</div>

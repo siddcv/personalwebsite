@@ -258,3 +258,8 @@ img {
   transition: border-width 150ms ease-in-out;
   
 }
+
+@media (max-width: 900px) {
+  .flexbox_projects {
+    flex-direction: column;
+  }}

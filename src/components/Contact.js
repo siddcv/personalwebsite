@@ -67,7 +67,7 @@ function Contacts() {
                 </div>
 
             </div>
-            <div class="rightBox">
+            <div class="rightbox">
                 <div>
                 <img class="mp" src={profile} />
                 </div>

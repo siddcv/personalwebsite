@@ -16,7 +16,6 @@
 /*margin: 0px;
 }*/
 body {
-    /*min-width: 800px;*/
     background: -webkit-linear-gradient(to bottom right, #000000, #434343); /* chrome 10-25, safari 5.1-6 */
     background: linear-gradient(to bottom right, #000000, #434343); /*w3c, ie 10+/ edge, firefox 16+, chrome 26+, opera 12+, safari 7+*/
 }
@@ -35,8 +34,8 @@ html{
 }
 
 .mypic{
-    max-width:30%;
-    width:28%;
+    max-width:100vh;
+    width:60vh;
     height:auto;
     border-radius:90%/80%;
 }
@@ -88,10 +87,19 @@ html{
 
 .first-col{
     flex:1 1;
+    color: white;
 }
 .second-col{
     flex:1 1;
 }
+
+@media (max-width: 1050px) {
+    .first-col {
+      flex-basis: 100%; /* Full width for small screens */
+    }
+    .first-col:nth-child(1) { order: 2; }
+    .first-col:nth-child(2) { order: 1; }
+  }
 /*.arrow {
     border: solid white;
     border-width: 0 3px 3px 0;
@@ -186,3 +194,30 @@ p{
     text-align: center;
     cursor: pointer;
 }
+
+@media (max-width: 1050px) {
+    .flex-container{
+      flex-direction: column;
+      justify-content: space-evenly;
+      height:85vh
+    }}
+    @media (max-width: 1050px) {
+        .flexcontainer{
+          flex-direction: column;
+          justify-content: space-evenly;
+          height:80vh
+        }}
+    @media (max-width: 1050px) {
+        .mypic{
+          width:36vh;
+        }}
+
+        @media (max-width: 1050px) {
+            #secondsection{
+              min-height:150vh;
+            }}
+
+            @media (max-width: 925px) {
+                #secondsection{
+                  min-height:180vh;
+                }}
