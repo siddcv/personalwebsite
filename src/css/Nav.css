@@ -25,6 +25,11 @@
         padding-left: 2%;
         
     }
+    @media (max-width: 800px) {
+        #trapezoid {
+            border-bottom: 90px solid rgba(111, 163, 239, .4);
+        }}
+
 
     .navbar {
         position: sticky;
@@ -46,6 +51,18 @@
             letter-spacing: 4px;
             transition: all 0.5s ease;
         }
+
+        @media (max-width: 800px) {
+            .navbar a {
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 3px 8px;
+                text-transform: uppercase;
+                transition: all 0.5s ease;
+                font-size: 11px;
+                letter-spacing: 1px;
+            }}
 
     .subnavbtn {
         font-size: 20px;
@@ -82,4 +99,4 @@
     .text1{
         display:flex;
         justify-content:space-evenly;
-    }
+    }          
