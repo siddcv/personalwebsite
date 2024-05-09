@@ -59,7 +59,7 @@ function MyExperiences() {
             
             {/* </div> */}
             <div id="secondsection1" class="flexy">
-                <div class="picy">
+                <div class="descy">
                     <img class="pics" src={work} />
                 </div>
                 <div class="descy">
@@ -85,8 +85,8 @@ function MyExperiences() {
                 </div>
             </div>
             <div class="thick-line"></div>
-            <div class="flexy">
-                <div class="descy">
+            <div class="flexy1">
+                <div class="descy1">
                 <div class="company">Cisco Systems</div>
                         <div class="role">Undergraduate Technical Intern</div>
                         <div class="text">
@@ -106,7 +106,7 @@ function MyExperiences() {
 </div>
                       
                 </div>
-                <div class="picy">
+                <div class="descy1">
                     <img class="pics" src={intern} />
                 </div>
             </div>
@@ -114,7 +114,7 @@ function MyExperiences() {
 
 
             <div class="flexy">
-                <div class="picy">
+                <div class="descy">
                     <img class="pics" src={etc} />
                 </div>
                 <div class="descy">
@@ -134,8 +134,8 @@ function MyExperiences() {
                         </div>
             </div>
             <div class="thick-line"></div>
-            <div class="flexy">
-                <div class="descy">
+            <div class="flexy1">
+                <div class="descy1">
                 <div class="company">Santa Clara University</div>
                         <div class="role">Tour Guide & Peer Advisor</div>
                         <div class="text">
@@ -153,14 +153,14 @@ function MyExperiences() {
                 
 
 </div></div>
-                <div class="picy">
+                <div class="descy1">
                     <img class="pics" src={tour} />
                 </div>
             </div>
             <div class="thick-line"></div>
 
             <div class="flexy">
-                <div class="picy">
+                <div class="descy">
                     <img class="pics" src={niners} />
                 </div>
                 <div class="descy">
@@ -176,8 +176,8 @@ function MyExperiences() {
             </div>
             <div class="thick-line"></div>
 
-            <div class="flexy">
-                <div class="descy">
+            <div class="flexy1">
+                <div class="descy1">
                 <div class="company">Commuter Student Union</div>
                         <div class="role">President and Tour Guide</div>
                         <div class="text">
@@ -187,7 +187,7 @@ function MyExperiences() {
 
 </div>
                         </div>
-                <div class="picy">
+                <div class="descy1">
                     <img class="pics" src={csu} />
                 </div>
             </div>
