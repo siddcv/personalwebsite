@@ -139,7 +139,7 @@ img {
 }
 
 .text{
-    font-size: 15px;
+    font-size: 18px;
     margin-right:5%;
     padding-bottom: 0.5%;
 }
@@ -151,8 +151,9 @@ img {
 
 .company{
   padding-top: 2%;
-    font-size: 30px;
+    font-size: 35px;
     padding-bottom: 2%;
+    font-weight: bold;
 }
 
 .gradient-text {
@@ -283,11 +284,17 @@ font-size: 20px;
         .mainbox {
           max-width: 90%;
         }}
+
         .thick-line {
             height: 30px; /* Set the height of the line */
             background-color: #957C3D; /* Set the color of the line */
-            margin-top: -.28%;
+            margin-top: -.24%;
           }
+
+          @media (max-width: 950px) {
+            .thick-line {
+              margin-top: -.625%;
+            }}
   .header{
     font-size: 20px;
     padding-bottom:5%;
@@ -324,3 +331,7 @@ font-size: 20px;
   .flexbox_projects {
     flex-direction: column;
   }}
+
+  li {
+    margin: 1%;
+  }

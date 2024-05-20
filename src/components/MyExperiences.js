@@ -69,15 +69,14 @@ function MyExperiences() {
                         Starting my career at Cisco was an amazing opportunity, especially having to take over a senior engineers' responsibilities 
                             as they went on extended leave really challenged me and allowed me to push myself to perform the following:
                             <ul>
-                                <li>Managed 3 of 11 SpringBoot Java apps, overseeing maintenance and leading development based on new business
-                                    requirements. Ensured SCA/SAST security compliance, Junit requirements, facilitated Kafka messaging, and supported Kubernetes containerization</li>
-                                <li>Designed and showcased a proof of concept to integrate a Java application with CyberArk Conjur via REST APIs for improved
+                                <li> <b><u>Managed</u></b> 3 of 11 SpringBoot apps, overseeing maintenance and leading development based on new business
+                                    requirements. Ensured SCA/SAST security compliance, Junit requirements, facilitated <b><u> Kafka messaging</u></b>, and supported <b><u> Kubernetes containerization</u></b></li>
+                                <li>Designed and showcased a proof of concept to integrate Java applications with <b><u>CyberArk Conjur via REST APIs </u></b> for improved
                                     security. Implemented modifications across all 11 applications, ensuring full operation with the Conjur security platform</li>
-                                <li>Built an in-house tool utilizing Angular's framework to replace Trinamix's Fabconnect tool. It served as a Platform as a Service
-                                    (PaaS) addition to Oracle Cloud Manufacturing
+                                <li>Frontend development of an in-house tool using<b><u> Angular framework</u></b>, including upgrades of multiple applications to the latest version
                                 </li>
-                                <li>Responsible for applications that handled every order passed through Cisco's new cloud supply chain initiative generating $4
-                                    billion in revenue
+                                <li>Responsible for applications that handled every order passed through Cisco's new cloud supply chain initiative <b><u>generating $4
+                                    billion in revenue </u></b>
                                 </li>
                             </ul> 
                             </div>
@@ -92,14 +91,14 @@ function MyExperiences() {
                         <div class="text">
                         During my first internship I specialized and learnt the following skills:
                             <ul>
-                                <li>Front end development of a web app dashboard using AngularJS and Spring MVC frameworks</li>
-                                <li>UI/UX design principles through speaking with several UI/UX designers</li>
+                                <li>Front end development of a web app dashboard using <b><u>AngularJS and Spring MVC frameworks</u></b></li>
+                                <li><b><u>UI/UX design principles</u></b> through speaking with several UI/UX designers</li>
                                 <li>The soft skills and the nuances of working within a team as well as understanding the Supply Chain domain</li>
                             </ul>
                             Going into my second internship,I took on 3 projects each of which had me operate under a different capcity.
                             <ul>
-                                <li>I lead a team of 4 interns on a project to build a proof of concept to demonstate a crowdsourcing platform which could be used by the planning team on Cisco's supply chain to increase forecasting accuracy.</li>
-                                <li>I defined and built the capabilities of an email automaiton system which would be tiggered by a business event primarily utilizing MIME messaging</li>
+                                <li><b><u>I lead a team of 4 interns </u></b> on a project in a project manager capacity to build a proof of concept to demonstate a crowdsourcing platform which could be used by the planning team on Cisco's supply chain to increase forecasting accuracy.</li>
+                                <li><b><u>I defined and built the capabilities of an email automation system</u></b> which would be tiggered by a business event primarily utilizing MIME messaging</li>
                                 <li>I worked on the frontend development under two software engineers making it responsive as well as adding other functionalities.</li>
                             </ul> 
 
@@ -121,12 +120,12 @@ function MyExperiences() {
                 <div class="company">Cisco ETC-San Jose</div>
                         <div class="role">Data & Analytics Lead</div>
                         <div class="text">
-                        Emerging Talent Chapter (ETC) is an inclusion and collaboration organization at Cisco with its San Jose chapter being the largest with 1800 members. 
+                        Emerging Talent Chapter (ETC) is an inclusion and collaboration organization at Cisco with its San Jose chapter being the largest with <b><u>1800 members.</u></b> 
                             I joined the board as the Data and Analytics Lead and my responsibilities included 
                             <ul>
                                 <li>Helping to collect and organize several metrics from our members about our events   </li>
-                                <li>Consolodating and presenting them to the leadership team helping them make data-driven decisions improving our member satisfaction by 11.34%. </li>
-                                <li>Standardize event data collection procedures and metrics which were then implemented across all ETC chapters in Cisco</li>
+                                <li>Consolodating and presenting them to the leadership team helping them make data-driven decisions <b><u>improving our member satisfaction by 11.34%.</u></b> </li>
+                                <li><b><u>Standardize event data collection procedures</u></b> and metrics which were then implemented across all ETC chapters in Cisco</li>
                             </ul>     
                 
 
