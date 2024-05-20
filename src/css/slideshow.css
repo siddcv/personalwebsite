@@ -37,12 +37,13 @@
 
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:750px) {
     .slider {
         width: 75vw ;
         margin-left: -20%;
         padding-bottom: 15%;
     }
+
 
 }
 

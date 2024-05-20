@@ -88,6 +88,12 @@ html{
     align-items: center;
 }
 
+@media (max-width: 900px) {
+    #secondsection{
+        height:108vh;
+    }
+}
+
 .first-col{
     flex:1 1;
     color: white;
@@ -96,7 +102,7 @@ html{
     flex:1 1;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 900px) {
     .first-col {
       flex-basis: 100%; /* Full width for small screens */
       text-align: center;
@@ -176,7 +182,18 @@ html{
 }
 
 p{
-    font-size:20px
+    font-size:23px
+}
+
+@media (max-width: 900px) {
+    p{
+        font-size:17px
+    }
+}
+@media (max-width: 725px) {
+    p{
+        font-size:15px
+    }
 }
 
 .scrolldown{
@@ -193,34 +210,46 @@ p{
     font-size: 70px;
 }
 
+@media (max-width: 500px) {
+    .name {
+        font-size: 50px;
+    }
+    .abtme{
+        font-size: 25px;
+    }
+    /* .me{
+        font-size: 18px;
+    } */
+  }
+
 .scrolldown{
     display: block;
     text-align: center;
     cursor: pointer;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 900px) {
     .flex-container{
       flex-direction: column;
       justify-content: space-evenly;
-      height:85vh
+      height:80vh
     }}
-    @media (max-width: 1050px) {
+    @media (max-width: 900px) {
         .flexcontainer{
           flex-direction: column;
           justify-content: space-evenly;
         }}
-    @media (max-width: 1050px) {
+    @media (max-width: 900px) {
         .mypic{
           width:36vh;
         }}
 
-        @media (max-width: 1050px) {
+        @media (max-width: 900px) {
             .flex1{
               padding-top: 20%;
             }}
 
-        /* @media (max-width: 1050px) {
+        /* @media (max-width: 900px) {
             #secondsection{
               min-height:150vh;
             }}
@@ -229,3 +258,13 @@ p{
                 #secondsection{
                   min-height:180vh;
                 }} */
+                /* @media (max-width: 900px) {
+                    .myimages{
+                        padding-bottom: 10%;
+                    }
+                }
+                @media (max-width: 900px) {
+                    .myimages{
+                        padding-bottom: 0%;
+                    }
+                } */

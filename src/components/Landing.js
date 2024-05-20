@@ -50,7 +50,7 @@ function Landing() {
             <div class="firstsection">
                 <div class="flex-container">
                     <div class="first">
-                        <div class="name" >Hi I'm Sidd</div>
+                        <div class="name" >Hi I'm Sidd!</div>
                         <h4>Welcome to my website</h4>
                     </div>
                     <img class="mypic" src={profile} />
@@ -66,11 +66,17 @@ function Landing() {
                         <ImageSlider slides={SliderData} />
                     </div>
                     <div class='first-col'>
-                        <h1> About me: </h1>
-                        <p>
-                            I'm passionate about problem solving and am driven by curiosity and building strong interpersonal relationships.
+                        <div class='abt'>
+                        <h1 class='abtme'> About Me: </h1>
+                        <p class='me'>
+                            I'm curious and passionate about solving new problems and value building strong interpersonal relationships due to my transnational experiences.
                             I love finding unique solutions to challenges while expanding my learning horizon and strenghtening my expertise in various fields.
                         </p>
+                        <p class='me'>
+                            I'm a Software Engineer II at Cisco Systems working on developing the backend systems which supports Cisco's Supply Chains' transformation to the cloud.
+                            At Santa Clara University I majored in Computer Science and Engineering with a minor in Mathematics.
+                        </p>
+                        </div>
                         {/* <p>
                             I'm a Software Engineer II at Cisco Systems working on developing the backend systems which supports Cisco's Supply Chains' transformation to the cloud.
                             At Santa Clara University I majored in Computer Science and Engineering with a minor in Mathematics.
