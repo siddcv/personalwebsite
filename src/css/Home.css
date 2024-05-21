@@ -102,6 +102,14 @@ html{
     flex:1 1;
 }
 
+.color{
+    background-image: -webkit-linear-gradient(to bottom right, #7299ee, #0b40de);
+    background-image: linear-gradient(to bottom right, #7299ee, #0b40de);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 @media (max-width: 900px) {
     .first-col {
       flex-basis: 100%; /* Full width for small screens */

@@ -23,6 +23,7 @@ import { useEffect } from 'react';
 import { FaWindowMaximize   } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import piano from '../images/Piano.JPG'
+import todo from '../images/dolist.mp4'
 
 
 function MyExperiences() {
@@ -40,6 +41,18 @@ function MyExperiences() {
             });
         });
     });
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("text-item");
+            var text = element.innerHTML;
+            var newText = `<span class="highlight">${text}</span>`;
+            element.innerHTML = newText;
+        });
+    });
+
+
 
     useEffect(() => {
         document.querySelectorAll('.arrowdown1').forEach(function(wl) {
@@ -74,8 +87,11 @@ function MyExperiences() {
                     <div class="mainbox_projects">
                         <div class="leftbox">
                             <div class="header"> Personal Website</div>
-                        This website from scratch having learnt the React framweork over the course of a couple weeks and combined it with my previous knowledge of HTML, CSS and JS
-                    It was a great learning experience having to build a live application while also learning React at the same time. It is now hosted on the cloud on AWS using optimized cloud foundations.
+                            <div>
+                        This website was built from scratch having learnt the <span id ='text-item' class='highlight'>React framework</span> and combined it with my previous knowledge of <span id ='text-item' class='highlight'>HTML, CSS and JS</span>
+                        This website is fully <span id ='text-item' class='highlight'>responsive and compatible with mobile screens</span>. I additionally combined it with the skills used from my AWS Cloud Practioner certification to have it
+                        now <span id ='text-item' class='highlight'>hosted on the cloud on AWS</span> using optimized cloud foundations such as<span id ='text-item' class='highlight'> Route 53, S3 storage and Cloud Formations.</span>
+                    </div>
                         </div>
                         <div class="rightBox">
                             {/* <div> */}
@@ -89,7 +105,7 @@ function MyExperiences() {
                     <div class="leftbox">
                             <div class="header">Glove Piano</div>
                             <div >
-                            During my freshmen year of college, for our introductory engineering class as a group project we built a glove piano using an arduino board. By attaching flex sensors to each finger of the glove, the movement of a finger to a certain degree would play a certain note allowing you to play a song from your fingertips.
+                            During my freshmen year of college, for our introductory engineering class as a group project we built a glove piano using an<span id ='text-item' class='highlight'> arduino board</span>. By attaching flex sensors to each finger of the glove, the movement of a finger to a certain degree would play a certain note allowing you to play a song from your fingertips.
                         
                             </div>
                     </div>
@@ -99,34 +115,33 @@ function MyExperiences() {
                         </div>
                     </div>
                     </div>
-                </div>
 
-                <div class="col">
                     <div class="mainbox_projects">
                         <div class="leftbox">
-                        <div class="header"> Nasdaq Database</div>
-                        <div>
-                        During the summer of 2020, I grew a strong interest in the stock market and learning about stocks however, I couldn't find a central place that would have all the necessary information for me to make a decision about picking stocks.
-                    Therefore I took it upon myself to do that myself. I strengthened my python skills and used webscraping techniques and python data structure to compile a database with all the releveant information about 2830 Nasdaq companies.
-                    Further I used pivot tables in Excel to use data visualization to make the data more easily comprehensible.
-
-                        </div>
+                        <div class="header">Container Migration in Ad-hoc Wireless Mesh Networks</div>
+                            <div >
+                            We aimed to implement<span id ='text-item' class='highlight'> container migration on an ad hoc mesh network</span>, which would allow for a mobile fog computing mesh network in areas with no connectivity.
+                            We used technologies like <span id ='text-item' class='highlight'>Docker, CRIU, and batman-adv</span> to create a mesh compute network that is decentralized, flexible, and consistent. 
+                            Since this system is aimed to be used in rural areas/areas with no connectivity, power and time considerations were measured and analyzed to ensure reasonable mobile applications were possible.
+                            </div>
 
                         </div>
                         <div class="rightBox">
+                            <img class="pics" src={network} />
 
-                            <img class="pics" src={db} />
                         </div>
                     </div>
+                </div>
 
-                    <div class="mainbox_projects">
+                <div class="col">
+                <div class="mainbox_projects">
                         <div class="leftbox">
                         <div class="header">AI/ML Buildathon Cisco Supply Chain</div>
                             <div>
-                            Created an ML solution to identify anomalous RMA's orders providing leadership with actionable insights, leveraging ML
-                            algorithms such as Isolation Forest, Persist AD, InterQuartileRangeAD trained on a FY23 dataset consisting of 33,198 RMA
+                            Created an ML solution to <span id ='text-item' class='highlight'>identify anomalous quantities in return orders</span> providing leadership with actionable insights, leveraging ML
+                            algorithms such as <span id ='text-item' class='highlight'>Isolation Forest, Persist AD, InterQuartileRangeAD </span>trained on a FY23 dataset consisting of 33,198 RMA
                             orders.
-                            Finished 2nd place across an AI/ML build-a-thon spanning across Cisco Supply Chain
+                            <span id ='text-item' class='highlight'>Finished 2nd place</span> across an AI/ML build-a-thon spanning across Cisco Supply Chain
                             </div>
 
                         </div>
@@ -138,19 +153,43 @@ function MyExperiences() {
                     </div>
                     <div class="mainbox_projects">
                         <div class="leftbox">
-                        <div class="header">Container Migration in Ad-hoc Wireless Mesh Networks</div>
-                            <div >
-                            aims to implement container migration on an ad hoc mesh network, which would allow for a mobile fog computing mesh network in areas with no connectivity.
-                            We use technologies like Docker, CRIU, and batman-adv to create a mesh compute network that is decentralized, flexible, and consistent. 
-                            Since this system is aimed to be used in rural areas/areas with no connectivity, power and time considerations were measured and analyzed to ensure reasonable mobile applications were possible.
-                            </div>
+                        <div class="header" id ='text-item'> Nasdaq Database</div>
+                        <div>
+                        During the summer of 2020, I grew a strong interest in the stock market and learning about stocks however, I couldn't find a central place that would have all the necessary information for me to make a decision about picking stocks.
+                    Therefore I took it upon myself to do that myself. I strengthened my <span id ='text-item' class='highlight'>python skills </span>and used <span id ='text-item' class='highlight'>webscraping techniques</span> and <span id ='text-item' class='highlight'>python data structures</span> to compile a database with all the releveant information all the <span id ='text-item' class='highlight'> 2830 Nasdaq companies.</span>
+                    Further I used pivot tables in Excel to use <span id ='text-item' class='highlight'>data visualization </span>to make the data more easily comprehensible.
+
+                        </div>
 
                         </div>
                         <div class="rightBox">
-                            <img class="pics" src={network} />
 
+                            <img class="pics" src={db} />
                         </div>
                     </div>
+
+                    <div class="mainbox_projects_image">
+                    <div class="leftbox">
+                            <div class="header">To Do List</div>
+                            <div >
+                            For a class project I built To Do List for college students to use to keep track of assignments and due dates.
+                            it was a <span id ='text-item' class='highlight'>persistent multi-page application</span> which connects to a <span id ='text-item' class='highlight'>Mongo database</span> and stores and displays data using features of <span id ='text-item' class='highlight'>CRUD. </span>
+                            Assignments could be searched up by class, with all the assignments for the class listed below.
+                        
+                            </div>
+                    </div>
+                    <div class="below_box">
+                        <div class="img_box">
+                            <video width="640" height="360" controls muted>
+                            <source src={todo} type="video/mp4"/>
+                            Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    </div>
+
+
+
                 </div>
 
                 {/* <div class="col">

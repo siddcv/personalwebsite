@@ -69,12 +69,12 @@ function Landing() {
                         <div class='abt'>
                         <h1 class='abtme'> About Me: </h1>
                         <p class='me'>
-                            I'm curious and passionate about solving new problems and value building strong interpersonal relationships due to my transnational experiences.
-                            I love finding unique solutions to challenges while expanding my learning horizon and strenghtening my expertise in various fields.
+                            I'm  <span class='color'> curious and passionate </span> about solving new problems and value <span class='color'>building strong interpersonal relationships</span> due to my transnational experiences.
+                            I love finding unique solutions to challenges while <span class='color'>expanding my learning horizon </span> and strenghtening my expertise in the computational field.
                         </p>
                         <p class='me'>
-                            I'm a Software Engineer II at Cisco Systems working on developing the backend systems which supports Cisco's Supply Chains' transformation to the cloud.
-                            At Santa Clara University I majored in Computer Science and Engineering with a minor in Mathematics.
+                            I'm a <span class='color'>Software Engineer II</span> at Cisco Systems working on developing the backend systems which supports Cisco's Supply Chains' transformation to the cloud.
+                            At Santa Clara University I majored in <span class='color'>Computer Science and Engineering</span> with a minor in Mathematics.
                         </p>
                         </div>
                         {/* <p>

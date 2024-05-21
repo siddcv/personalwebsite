@@ -19,9 +19,16 @@
 video{
     height:240px;
     width:360px;
-    padding-left:3rem;
 }
 
+.highlight{
+  background-image: -webkit-linear-gradient(to bottom right, #000000, #434343); 
+  background-image: linear-gradient(to bottom right, #000000, #434343);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
 img {
     height: 240px;
     width: 360px;
