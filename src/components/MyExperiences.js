@@ -178,7 +178,7 @@ function MyExperiences() {
             <div class="flexy1">
                 <div class="descy1">
                 <div class="company">Commuter Student Union</div>
-                        <div class="role">President and Tour Guide</div>
+                        <div class="role">President and Treasurer</div>
                         <div class="text">
                         Over the course of 2 years I have served on the board of the commuter student union which is designed to ensure students who don't live on campus to have a sense of community at college.
                         The complexity of planning events has been a great learning tool as the pressure of promising free food to college students and not delivering is hard to replicate                       
