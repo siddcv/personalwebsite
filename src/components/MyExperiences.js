@@ -45,6 +45,38 @@ function MyExperiences() {
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to the top of the page
     }, []);
+
+    // document.addEventListener('DOMContentLoaded', function() {
+
+    //     const appearOptions = {
+    //         threshold: 0,
+    //         rootMargin: "0px 0px -250px 0px"
+    //       };
+
+
+    // const appearOnScroll = new IntersectionObserver(function(
+    //     entries,
+    //     appearOnScroll
+    //   ) {
+    //     entries.forEach(entry => {
+    //       if (!entry.isIntersecting) {
+    //         return;
+    //       } else {
+    //         entry.target.classList.add("appear");
+    //         appearOnScroll.unobserve(entry.target);
+    //       }
+    //     });
+    //   },
+    //   appearOptions);
+
+    //   const sliders = document.querySelectorAll(".slide-in");
+
+    //     sliders.forEach(slider => {
+    //         appearOnScroll.observe(slider);
+    //     })
+        
+    // });
+
     return (
         
         <div>
@@ -59,10 +91,10 @@ function MyExperiences() {
             
             {/* </div> */}
             <div id="secondsection1" class="flexy">
-                <div class="descy">
+                <div class="slide-in descy" id='fromLeft'>
                     <img class="pics" src={work} />
                 </div>
-                <div class="descy">
+                <div class="slide-in descy" id='fromRight'>
                 <div class="company">Cisco Systems</div>
                         <div class="role">Software Engineer II</div>
                         <div class="text">
@@ -93,13 +125,12 @@ function MyExperiences() {
                             <ul>
                                 <li>Front end development of a web app dashboard using <b><u>AngularJS and Spring MVC frameworks</u></b></li>
                                 <li><b><u>UI/UX design principles</u></b> through speaking with several UI/UX designers</li>
-                                <li>The soft skills and the nuances of working within a team as well as understanding the Supply Chain domain</li>
                             </ul>
                             Going into my second internship,I took on 3 projects each of which had me operate under a different capcity.
                             <ul>
                                 <li><b><u>I lead a team of 4 interns </u></b> on a project in a project manager capacity to build a proof of concept to demonstate a crowdsourcing platform which could be used by the planning team on Cisco's supply chain to increase forecasting accuracy.</li>
                                 <li><b><u>I defined and built the capabilities of an email automation system</u></b> which would be tiggered by a business event primarily utilizing MIME messaging</li>
-                                <li>I worked on the frontend development under two software engineers making it responsive as well as adding other functionalities.</li>
+                                <li>Frontend responsive design of a web application as well as adding business functionalities.</li>
                             </ul> 
 
 </div>

@@ -45,13 +45,26 @@ html{
     justify-content:space-around;
     align-items:center;
     padding-top:.5%;
-
+    animation: transitionIn 2s;
 }
 .flexcontainer {
     display: flex;
     flex-direction: row;
-    align-items: center
+    align-items: center;
 }
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0)
+    }
+}
+
+
 
 /*.down-arrow {
     position: absolute;
@@ -88,11 +101,11 @@ html{
     align-items: center;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     #secondsection{
         height:108vh;
     }
-}
+} */
 
 .first-col{
     flex:1 1;
