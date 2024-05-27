@@ -65,7 +65,7 @@ function Landing() {
                     <div class='first-col'>
                         <ImageSlider slides={SliderData} />
                     </div>
-                    <div class='first-col'>
+                    <div class='first-col' id='description'>
                         <div class='abt'>
                         <h1 class='abtme'> About Me: </h1>
                         <p class='me'>

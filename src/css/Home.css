@@ -98,6 +98,10 @@ html{
     flex:1 1;
     color: white;
 }
+
+#description{
+    width: 80%;
+}
 .second-col{
     flex:1 1;
 }
