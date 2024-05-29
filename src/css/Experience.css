@@ -149,6 +149,11 @@ img {
     animation-range: 250px 450px;
 }
 
+.pi{
+  width: 100%;
+  height:auto;
+}
+
 @media only screen and (max-width:1050px) {
   .pics {
     animation-range: 100px 250px;
@@ -211,6 +216,7 @@ img {
   @media only screen and (max-width:1050px) {
     .gradient-text {
 font-size: 60px;
+height:93vh;
     }
 
 }

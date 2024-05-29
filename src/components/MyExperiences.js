@@ -173,12 +173,12 @@ function MyExperiences() {
                         Over the course of 2 years, I have served as a tour guide and a peer advisor for the school of engineering at SCU.
                         As a Tour Guide I was responsible for:
                         <ul>
-                            <li>Leading college tours of ~20 students and parents helped sharpen my public speaking skills... and my ability to walk backwards.</li>
+                            <li><b><u>Leading college tours of ~20 students</u></b> and parents helped sharpen my public speaking skills... and my ability to walk backwards.</li>
                             <li>Answering questions high school students and parents had about our college specifically the school of engineering</li>
                         </ul>  
                         As a Peer Advisor I was responsible for:
                         <ul>
-                            <li>Being the point of contact for 30 freshmen, organizing social events, communicating relevent information, as well as helping them plan out their class schedule to ensure they graduate on time.</li>
+                            <li>Being the <b><u>point of contact for 30 freshmen</u></b>, organizing social events, communicating relevent information, as well as helping them plan out their class schedule to ensure they graduate on time.</li>
                         </ul>                   
                 
 
@@ -198,7 +198,7 @@ function MyExperiences() {
                         <div class="role">Guest Services Representative</div>
                         <div class="text">
                         During 49ers gamedays and concerts at Santa Clara I worked to ensure that fans would have the best experience as possible.
-                                      Managing 2 sections of the stadium has taught me a lot and required me to think quickly on my feet. Additionally this job has given me several memorable experiences allowing me to watch the 49ers win the NFC Championship and seeing Coldplay perform on their tour.     
+                        <b><u>Managing 2 sections of the stadium </u></b>has taught me a lot and required me to think quickly on my feet. Additionally this job has given me several memorable experiences allowing me to watch the 49ers win the NFC Championship and seeing Coldplay perform on their tour.     
                
 
 </div>

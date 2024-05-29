@@ -90,14 +90,14 @@ function MyExperiences() {
                             <div>
                         This website was built from scratch having learnt the <span id ='text-item' class='highlight'>React framework</span> and combined it with my previous knowledge of <span id ='text-item' class='highlight'>HTML, CSS and JS</span>
                         This website is fully <span id ='text-item' class='highlight'>responsive and compatible with mobile screens</span>. I additionally combined it with the skills used from my AWS Cloud Practioner certification to have it
-                        now <span id ='text-item' class='highlight'>hosted on the cloud on AWS</span> using optimized cloud foundations such as<span id ='text-item' class='highlight'> Route 53, S3 storage and Cloud Formations.</span>
+                        now <span id ='text-item' class='highlight'>hosted on the cloud on AWS</span> using optimized cloud foundations such as<span id ='text-item' class='highlight'> Route 53, S3 storage, Certificate Manager and CloudFront.</span>
                     </div>
                         </div>
                         <div class="rightBox">
                             {/* <div> */}
                             {/* <FaWindowMaximize   style={{ fontSize: '48px' }} /> 
                             <FontAwesomeIcon icon="fa-brands fa-react" /> */}
-                            <img class="pics" src={react} />
+                            <img class="pi" src={react} />
                             {/* </div> */}
                         </div>
                     </div>
@@ -127,7 +127,7 @@ function MyExperiences() {
 
                         </div>
                         <div class="rightBox">
-                            <img class="pics" src={network} />
+                            <img class="pi" src={network} />
 
                         </div>
                     </div>
@@ -147,7 +147,7 @@ function MyExperiences() {
                         </div>
                         <div class="rightBox">
                             {/* <div> */}
-                            <img class="pics" src={ml} />
+                            <img class="pi" src={ml} />
                             {/* </div> */}
                         </div>
                     </div>
@@ -164,7 +164,7 @@ function MyExperiences() {
                         </div>
                         <div class="rightBox">
 
-                            <img class="pics" src={db} />
+                            <img class="pi" src={db} />
                         </div>
                     </div>
 
