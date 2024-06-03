@@ -11,9 +11,9 @@ function Contacts() {
     useEffect(() => {
         window.scrollTo(0, 0); // Scroll to the top of the page
     }, []);
-    const pStyle = {
-        fontSize: '2vh',
-      };    
+    // const pStyle = {
+    //     fontSize: '2vh',
+    //   };    
     return (
         <div class="mainBox">
             <div class="leftBox">
@@ -22,7 +22,8 @@ function Contacts() {
                         <h1>Contact Me!</h1>
                     </div>
                     <div class="text">
-                        <p style={pStyle}>  
+                        <p class="text">  
+                            {/* style={pStyle} */}
                         Thanks for taking your time to scroll through my webpage! For more information or to contact me feel free to use the below links.
                         </p>
                     </div>

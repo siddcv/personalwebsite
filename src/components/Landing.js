@@ -70,7 +70,7 @@ function Landing() {
                         <h1 class='abtme'> About Me: </h1>
                         <p class='me'>
                             I'm  <span class='color'> curious and passionate </span> about solving new problems and value <span class='color'>building strong interpersonal relationships</span> due to my transnational experiences.
-                            I love finding unique solutions to challenges while <span class='color'>expanding my learning horizon </span> and strenghtening my expertise in the computational field.
+                            I love finding unique solutions to challenges while <span class='color'>expanding my learning horizon </span> and strengthening my expertise in the computational field.
                         </p>
                         <p class='me'>
                             I'm a <span class='color'>Software Engineer II</span> at Cisco Systems working on developing the backend systems which supports Cisco's Supply Chains' transformation to the cloud.

@@ -27,7 +27,7 @@
     }
     @media (max-width: 800px) {
         #trapezoid {
-            border-bottom: 90px solid rgba(111, 163, 239, .4);
+            border-bottom: 90px solid rgba(111, 163, 239, .9);
         }}
 
 

@@ -32,7 +32,9 @@ function MyExperiences() {
                 const targetId = this.getAttribute('href').substring(1); // Get the target ID
                 const targetElement = document.getElementById(targetId); // Find the target element
                 if (targetElement) {
-                    targetElement.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target element
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - 60;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                    //targetElement.scrollIntoView({ behavior: 'smooth' }); // Scroll to the target element
                 }
                 return false; // Prevent further propagation of the event
             });
