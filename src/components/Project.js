@@ -24,6 +24,7 @@ import { FaWindowMaximize   } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import piano from '../images/Piano.JPG'
 import todo from '../images/dolist.mp4'
+import cvnum from '../images/0924.mp4'
 
 
 function MyExperiences() {
@@ -103,20 +104,41 @@ function MyExperiences() {
                             {/* </div> */}
                         </div>
                     </div>
-                    <div class="mainbox_projects_image">
-                    <div class="leftbox">
-                            <div class="header">Glove Piano</div>
-                            <div >
-                            During my freshmen year of college, for our introductory engineering class as a group project we built a glove piano using an<span id ='text-item' class='highlight'> arduino board</span>. By attaching flex sensors to each finger of the glove, the movement of a finger to a certain degree would play a certain note allowing you to play a song from your fingertips.
-                        
+                    <div class="mainbox_projects">
+                        <div class="leftbox">
+                        <div class="header">AI/ML Buildathon Cisco Supply Chain</div>
+                            <div>
+                            Created an ML solution to <span id ='text-item' class='highlight'>identify anomalous quantities in return orders</span> providing leadership with actionable insights, leveraging ML
+                            algorithms such as <span id ='text-item' class='highlight'>Isolation Forest, Persist AD, InterQuartileRangeAD </span>trained on a FY23 dataset consisting of 33,198 RMA
+                            orders.
+                            <span id ='text-item' class='highlight'>Finished 2nd place</span> across an AI/ML build-a-thon spanning across Cisco Supply Chain
                             </div>
-                    </div>
-                    <div class="below_box">
-                        <div class="img_box">
-                        <img class="proj_pics" src={piano} />
+
+                        </div>
+                        <div class="rightBox">
+                            {/* <div> */}
+                            <img class="pi" src={ml} />
+                            {/* </div> */}
                         </div>
                     </div>
+
+                    <div class="mainbox_projects">
+                        <div class="leftbox">
+                        <div class="header" id ='text-item'> Nasdaq Database</div>
+                        <div>
+                        During the summer of 2020, I grew a strong interest in the stock market and learning about stocks however, I couldn't find a central place that would have all the necessary information for me to make a decision about picking stocks.
+                    Therefore I took it upon myself to do that myself. I strengthened my <span id ='text-item' class='highlight'>python skills </span>and used <span id ='text-item' class='highlight'>webscraping techniques</span> and <span id ='text-item' class='highlight'>python data structures</span> to compile a database with all the releveant information all the <span id ='text-item' class='highlight'> 2830 Nasdaq companies.</span>
+                    Further I used pivot tables in Excel to use <span id ='text-item' class='highlight'>data visualization </span>to make the data more easily comprehensible.
+
+                        </div>
+
+                        </div>
+                        <div class="rightBox">
+
+                            <img class="pi" src={db} />
+                        </div>
                     </div>
+                    
 
                     <div class="mainbox_projects">
                         <div class="leftbox">
@@ -136,37 +158,20 @@ function MyExperiences() {
                 </div>
 
                 <div class="col">
-                <div class="mainbox_projects">
-                        <div class="leftbox">
-                        <div class="header">AI/ML Buildathon Cisco Supply Chain</div>
-                            <div>
-                            Created an ML solution to <span id ='text-item' class='highlight'>identify anomalous quantities in return orders</span> providing leadership with actionable insights, leveraging ML
-                            algorithms such as <span id ='text-item' class='highlight'>Isolation Forest, Persist AD, InterQuartileRangeAD </span>trained on a FY23 dataset consisting of 33,198 RMA
-                            orders.
-                            <span id ='text-item' class='highlight'>Finished 2nd place</span> across an AI/ML build-a-thon spanning across Cisco Supply Chain
+
+                <div class="mainbox_projects_image">
+                    <div class="leftbox">
+                            <div class="header">Handwritten Digit Classifier</div>
+                            <div >
+                                With my interest in computer vision I learnt the foundations of <span id ='text-item' class='highlight'>neural networks and designed a multi layer architecture</span> to be able to identify given digits upto a<span id ='text-item' class='highlight'>96% accuracy.</span> I tried a variety of combinations of architecture choices, including varying hyperparameters and number of layers to help develop the most accurate model. I was able to achieve this by using the <span id ='text-item' class='highlight'>TensorFlow framework.</span>
+                                Please expand the video below to see the demo.
                             </div>
-
-                        </div>
-                        <div class="rightBox">
-                            {/* <div> */}
-                            <img class="pi" src={ml} />
-                            {/* </div> */}
-                        </div>
                     </div>
-                    <div class="mainbox_projects">
-                        <div class="leftbox">
-                        <div class="header" id ='text-item'> Nasdaq Database</div>
-                        <div>
-                        During the summer of 2020, I grew a strong interest in the stock market and learning about stocks however, I couldn't find a central place that would have all the necessary information for me to make a decision about picking stocks.
-                    Therefore I took it upon myself to do that myself. I strengthened my <span id ='text-item' class='highlight'>python skills </span>and used <span id ='text-item' class='highlight'>webscraping techniques</span> and <span id ='text-item' class='highlight'>python data structures</span> to compile a database with all the releveant information all the <span id ='text-item' class='highlight'> 2830 Nasdaq companies.</span>
-                    Further I used pivot tables in Excel to use <span id ='text-item' class='highlight'>data visualization </span>to make the data more easily comprehensible.
-
-                        </div>
-
-                        </div>
-                        <div class="rightBox">
-
-                            <img class="pi" src={db} />
+                    <div class="img_box">
+                            <video width="640" height="360" controls muted>
+                            <source src={cvnum} type="video/mp4"/>
+                            Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
 
@@ -189,6 +194,22 @@ function MyExperiences() {
                         </div>
                     </div>
                     </div>
+                    <div class="mainbox_projects_image">
+                    <div class="leftbox">
+                            <div class="header">Glove Piano</div>
+                            <div >
+                            During my freshmen year of college, for our introductory engineering class as a group project we built a glove piano using an<span id ='text-item' class='highlight'> arduino board</span>. By attaching flex sensors to each finger of the glove, the movement of a finger to a certain degree would play a certain note allowing you to play a song from your fingertips.
+                        
+                            </div>
+                    </div>
+                    <div class="below_box">
+                        <div class="img_box">
+                        <img class="proj_pics" src={piano} />
+                        </div>
+                    </div>
+                    </div>
+
+
 
 
 
